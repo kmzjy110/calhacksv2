@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "calhacks-221418",
+  "private_key_id": "2bf4a0cefe350d934fed19b357bd83f035f7f28e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDKbGe+xaCjhjdO\nuAAQhBlJ3QLiSqkuMIy8sM8jXLhSs94cFX167uOFydN+n8y9RaduYT1RfhXp2/8Z\npHtzRl2Ue1ht10vdtWqDHMXvz7Rpwg2LxK9JNOy7DZU8/ldFZzlAjG+VUI7njFOk\nic1vSvGNskA7QGLosnSvMPCaextcHQYtSvTx2hry4pg83+p9Wttt/XWYhiETEYu5\nPVxckAo2Y4FOoKNjQ+J/aCzHw8DvBV6d4n3t/CeZDKdqksQVmX+EEv1QX/8e1wRU\nud9w84baDA8qbqQBNa33JtJBJqTzw+WlpT6CaboEuK9qDCz78V5FDSvaYZXdk5KM\nBhx4vofJAgMBAAECggEAB8SfOpf08TGOX8v53KhlHAuKN8rrsSUV0Yvrdwzw2eOj\nK2q7tQMD4jd7kUlqnvzUTw0WQFFZX+8cXAyO3D6gCrmtDBIODEURAFUTV3+eCczz\nniB/JY0NZKRBzORpzvUGIm8BPTapNUOSVicfphy3Jlvn0R5IbWujxLFZGmSNCTzW\nZnAPW19+ZlLLL8otGKnSevXjpVKu0FjFETmBydAz2yGNJ0LaMK2GuodOhL0cJt6n\nc5svtEZzVL9lKYDUZVfTgLsNCh9mlKQTj27Agjo1iGgV5Ts1Me9VmJEKztu+FO/K\ndAA5BD3dSZj/eFITI2InTpJ1ZZggZ12Yp6TFnKOJMQKBgQDxUklSNzZDLlWnwenX\nng5+Z379maDWYk2ooLjHHqu7/B5te9iWFnz0Cdp1gLK0deGL6SRJ9fMU/9gOP4q1\nOaw0nz8a8smN6Gj/w5etCntRh3Qv7WDWqBfWYn5m6z9L44UZrRtmTNNijdYJuSTO\nVA+q992qz4e3CQTvWRJ+IXoDTQKBgQDWvGw63CTVPd0Y7ty9YrduWgZ/z9XoW+pS\nQA4zY8IjVyLy9uqDOD6YIuWoNUqSH+P37zT1oHsd4Hxeci7ZmxCG/qAy3PumpdJ2\nnvH0aadccuY4EXpEHyUD3n3vXcmHnSJ1rL0K9HRKSVtCuC1ao623tNS2EbgtqrjG\nsvWGySegbQKBgQDllC8E9Fm/F/mNG0HoSwnm33dEtD77NZJD9oNTi649rOEVr1ih\nkMtXL3iRiNp6LBtjC23mnwGe3Lci9vhy6GcXuNhEPu3Y/13E1MMbcHlZWtACOIaE\nMG5dGl6+ctdIzy70+maysCv5+o3Buk11rSsqr5xGwCCQ1RfIzKh3LknxkQKBgE4/\nYMzd9UoC/fMc7zDPrPm4MlAWouLFw4/vKX2OZ2rLUL/qO7BPKXf0l20A5khy+HYb\nI1gx/0r2xzr/LpU6zP30ANon7kdee1+gMZiXe1XTxJI/xCbYlntfctJrgYk6OBlb\nNZOtWkbLjka0qEo0BJRBf5VMxalWYXh+M7vGxvrNAoGAA9tMJtaIqHre9g7KKX5U\nPcpH/otOrpoiI6gWrWM6DgsHgdFEXw7WLAngh1F0cJZb6GWRGB2vixQJlIRFM1gB\nYBi1Fg6Co7QXuL6wil1YUl1f57M0WHqkmFLZl2DSEnPcNWiqTKM9DyYHW2ax0OkC\nI7oZiWskzTee4bGmLQIYopQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "starting-account-ydrn53iylxqo@calhacks-221418.iam.gserviceaccount.com",
+  "client_id": "106251315454850389384",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/starting-account-ydrn53iylxqo%40calhacks-221418.iam.gserviceaccount.com"
+}
