@@ -6,5 +6,8 @@
         <textarea type="text" name="body" cols="40" rows="20"> </textarea>
       <input type="submit" value="Detect">
     </form>
+      {% if out %}
+      <p> {{out}}</p>
+      {% endif %}
   </body>
 </html>
