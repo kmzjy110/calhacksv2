@@ -1,18 +1,74 @@
-<html>
-  <body>
-    <h2>Add Article</h2>
-    <form method="POST" action="/">
-        <textarea type="text" name="title" cols="40" rows="5"> </textarea>
-        <textarea type="text" name="body" cols="40" rows="20"> </textarea>
-      <input type="submit" value="Detect">
-    </form>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tonalify!</title>
+
+  <!-- Bootstrap -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class='navbar'>
+    <div class='container-fluid'>
+      <div class='navbar-header'>
+        <a href='/Index.html" class="navbar-brand'>Tonalify!</a>
+      </div>
+      <div class='navbar-text navbar-right'>
+        <a class='navbar-link' href='URL here'>
+          Follow us!
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class='container'>
+    <div class='row'>
+      <div class='col-md-12'>
+        <div class='jumbotron'>
+          <div align="center">
+            <h1>Tonalify</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-md-12'>
+        <div align="center">
+          <p>Messages, essays, moods, complaints. Post them here and we will tell the sentiment of your message!</p>
+        </div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-md-12'>
+        <div align="center">
+          <form method="POST" action="/">
+            <textarea type="text" name="body" cols="100" rows="10"> </textarea>
+            <br>
+            <input type="submit" value="Detect">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div align="center">
+      <br>
       {% if out %}
-      
+
       <div>
-       {% for s in out%}
-      <p>{{s}}</p>
-    {% endfor %}
+        {% for s in out%}
+        <p>{{s}}</p>
+        {% endfor %}
       </div>
       {% endif %}
-  </body>
+    </div>
+  </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+  </script>
+  <script src="bootstrap/js/bootstrap.min.js">
+  </script>
+</body>
+
 </html>
