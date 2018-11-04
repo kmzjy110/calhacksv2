@@ -41,7 +41,6 @@ def index():
 
         if request.form:
 
-            title = request.form.get('title')
             body = request.form.get('body')
             out=analyze(body)
             return render_template("home.html", out=out)
