@@ -1,5 +1,6 @@
 
 from flask import Flask, render_template, request
+
 from google.cloud import language
 from google.cloud.language import enums
 from google.cloud.language import types
@@ -26,13 +27,12 @@ def analyze(text):
         type=enums.Document.Type.PLAIN_TEXT)
     analyzations = client.analyze_sentiment(document=document)
     overall = analyzations.document_sentiment
-    out = ""
+    out = []
     for sentence in analyzations.sentences:
-        out += "Content:" + sentence.text.content + "\n"
-        out += "Sentiment:" + transcribe_emotion(sentence.sentiment.score) + "\n\n"
-    out += "Overall Sentiment:" + transcribe_emotion(overall.score)
+        out.append( "Content:" + sentence.text.content + "\n")
+        out.append("Sentiment:" + transcribe_emotion(sentence.sentiment.score) + "\n")
+    out.append("Overall Sentiment:" + transcribe_emotion(overall.score))
     return out
-
 
 app=Flask(__name__)
 @app.route('/',methods=['GET', 'POST'])
@@ -43,6 +43,10 @@ def index():
 
             title = request.form.get('title')
             body = request.form.get('body')
-            #out=analyze(body)
-            return render_template("home.html")
+            out=analyze(body)
+            return render_template("home.html", out=out)
     return render_template("home.html")
+
+
+if __name__ == '__main__':
+    app.run(host='127.0.0.1', port=8080, debug=True)

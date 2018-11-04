@@ -7,7 +7,12 @@
       <input type="submit" value="Detect">
     </form>
       {% if out %}
-      <p> {{out}}</p>
+      
+      <div>
+       {% for s in out%}
+      <p>{{s}}</p>
+    {% endfor %}
+      </div>
       {% endif %}
   </body>
 </html>
